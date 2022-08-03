@@ -1,0 +1,8 @@
+{
+    "extensionHostingServiceName": "newibizaproject",
+    "extensionNameInPortalRegistration": "Microsoft_Azure_NewIbizaProject",
+    "port": 1339,
+    "extensionServableContentPath": "./obj/Debug/netcoreapp3.1",
+    "bundlerPath": "../../packages/microsoft.portal.tools/10.86.0.1/build/netcoreapp3.1/bundle.dll",
+    "extensionContentSource": "./Output"
+}

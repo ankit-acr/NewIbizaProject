@@ -1,0 +1,33 @@
+{
+  "name": "templateextension-reactviews",
+  "version": "1.0.0",
+  "description": "Template Extension React Views",
+  "author": "Microsoft",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/azureportal-reactview": "^1.42.0"
+  },
+  "scripts": {
+    "test": "jest --config ./test-config/jest.config.js",
+    "watchtest": "jest --config ./test-config/jest.config.js --watch",
+    "build": "reactview-build --outputDirectory ../../Output/Content/Scripts/ReactViews",
+    "build:dev": "reactview-build --outputDirectory ../../Output/Content/Scripts/ReactViews --development",
+    "watch": "reactview-build --outputDirectory ../../Output/Content/Scripts/ReactViews --development --watch"
+  },
+  "devDependencies": {
+    "@microsoft/azureportal-reactview-tools": "^0.15.0",
+    "@testing-library/react": "11.0.4",
+    "@types/enzyme": "3.10.6",
+    "@types/enzyme-adapter-react-16": "1.0.2",
+    "@types/jest": "26.0.12",
+    "@uifabric/jest-serializer-merge-styles": "7.2.0",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.4",
+    "enzyme-to-json": "^3.5.0",
+    "jest": "26.4.2",
+    "jest-junit": "11.1.0",
+    "realistic-structured-clone": "2.0.2",
+    "ts-jest": "26.3.0",
+    "typescript": "3.9.5"
+  }
+}
